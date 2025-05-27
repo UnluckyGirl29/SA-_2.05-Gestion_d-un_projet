@@ -7,7 +7,7 @@ public class GestionPaiements {
 
     public void ajouterPaiement(Paiement paiement) {
         paiements.put(paiement.getId(), paiement);
-    }a
+    }
 
     public void modifierDatePaiement(String id, LocalDate nouvelleDate) {
         Paiement p = paiements.get(id);
