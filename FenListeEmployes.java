@@ -16,6 +16,7 @@ public class FenListeEmployes extends Stage {
 		this.setResizable(true);
 		Scene laScene = new Scene(creerSceneGraph());
 		this.setScene(laScene);
+		this.setResizable(false);
 	}
 
 	private Pane creerSceneGraph() throws IOException {
