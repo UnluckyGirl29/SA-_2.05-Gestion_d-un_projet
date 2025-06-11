@@ -29,7 +29,6 @@ public class Main extends Application{
 	}
 	
 	static public void ouvrirModifierEmploye(Membre e) {
-		fModifierEmp.afficherEmploye(e);
 		fModifierEmp.show();
 	}
 	
