@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.IOException;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import modele.Membre;
 import javafx.scene.layout.Pane;
 import javafx.fxml.FXMLLoader;
 
@@ -20,17 +21,11 @@ public class FenModifierEmploye extends Stage {
 	}
 
 	private Pane creerSceneGraph() throws IOException { 
-		File f = new File("/home/etuinfo/amjulien/Téléchargements/modifierMembre.fxml");
+		File f = new File("/home/etuinfo/glollieric/Documents/SAE2.01/modifierMembre.fxml");
 		FXMLLoader loader;
 		loader = new FXMLLoader(f.toURI().toURL());
 		Pane racine = loader.load();
-		ctrl = loader.getController();
+		this.ctrl = loader.getController();
 		return racine;
 	}
-
-}
-	public void afficherEmploye(Membre e) {
-		ctrl.afficherEmploye(e);
-	}
-
 }
