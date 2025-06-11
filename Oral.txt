@@ -13,3 +13,5 @@
 - Double clic
 - Touche suppr
 - Fenêtre modifier : Aucuns caractères géré
+- Bouton entrée
+- Bouton Echap
