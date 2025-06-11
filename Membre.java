@@ -93,6 +93,16 @@ public class Membre {
 		return this.montantDu;	
 	}
 	
+	public int getTotal() {
+		return total.get();
+	}
+	public void setTotal(int total) {
+		this.total.set(total);
+	}
+	public IntegerProperty totalProperty() {
+		return this.total;	
+	}
+	
 	
 	public void affiche() {
 		System.out.println("Identifiant : " + this.getIdentifiant());
