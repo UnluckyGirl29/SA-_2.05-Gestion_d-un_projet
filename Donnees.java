@@ -17,6 +17,10 @@ public class Donnees {
 		lesMembres.add(new Membre(044,"ANNIC","Enzo","Danse classique",0,75, 75));
 		lesMembres.add(new Membre(060,"SALAÜN","Marie-Lisa","Danse classique",75,0, 75));
 		lesMembres.add(new Membre(001,"GOURDON","Gabriel","Danse hip-hop",0,75, 75));
+		lesMembres.add(new Membre(006,"AUBREE","Henri","Danse hip-hop",30,35));
+		lesMembres.add(new Membre(058,"BOND","James","Danse moderne jazz",75,0));
+		lesMembres.add(new Membre(027,"DUCK","Donald","Danse moderne",35,30));
+		lesMembres.add(new Membre(012,"LEMET","Axel","Danse moderne",75,0));
 	}
 
 	static public ObservableList<Membre> getLesEmployes() {
