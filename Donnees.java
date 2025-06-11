@@ -8,15 +8,15 @@ public class Donnees {
 	static private ObservableList<Membre> 		lesMembres  	= FXCollections.observableArrayList();
 
 	static public void chargementDonnees() { 
-		lesMembres.add(new Membre(007,"JULIEN","Amélie","Danse moderne",75,0));
-		lesMembres.add(new Membre(044,"TESSIER","Léo","Danse moderne jazz",15,60));
-		lesMembres.add(new Membre(011,"LOLLIERIC","Gaëtan","Danse classique",0,75));
-		lesMembres.add(new Membre(025,"KIM","Ji-O","Danse hip-hop",75,0));
-		lesMembres.add(new Membre(002,"GUERNION","Titouan","Danse moderne",75,0));
-		lesMembres.add(new Membre(031,"CHARRETEUR","Korentin","Danse moderne jazz",75,0));
-		lesMembres.add(new Membre(044,"ANNIC","Enzo","Danse classique",0,75));
-		lesMembres.add(new Membre(060,"SALAÜN","Marie-Lisa","Danse classique",75,0));
-		lesMembres.add(new Membre(001,"GOURDON","Gabriel","Danse hip-hop",0,75));
+		lesMembres.add(new Membre(007,"JULIEN","Amélie","Danse moderne",75,0, 75));
+		lesMembres.add(new Membre(044,"TESSIER","Léo","Danse moderne jazz",15,60, 75));
+		lesMembres.add(new Membre(011,"LOLLIERIC","Gaëtan","Danse classique",0,75, 75));
+		lesMembres.add(new Membre(025,"KIM","Ji-O","Danse hip-hop",75,0, 75));
+		lesMembres.add(new Membre(002,"GUERNION","Titouan","Danse moderne",75,0, 75));
+		lesMembres.add(new Membre(031,"CHARRETEUR","Korentin","Danse moderne jazz",75,0, 75));
+		lesMembres.add(new Membre(044,"ANNIC","Enzo","Danse classique",0,75, 75));
+		lesMembres.add(new Membre(060,"SALAÜN","Marie-Lisa","Danse classique",75,0, 75));
+		lesMembres.add(new Membre(001,"GOURDON","Gabriel","Danse hip-hop",0,75, 75));
 	}
 
 	static public ObservableList<Membre> getLesEmployes() {
