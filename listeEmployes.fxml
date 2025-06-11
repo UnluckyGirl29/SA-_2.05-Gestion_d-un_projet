@@ -27,6 +27,6 @@
       <CheckBox fx:id="saison" layoutX="480.0" layoutY="181.0" mnemonicParsing="false" text="Saison" AnchorPane.leftAnchor="480.0" AnchorPane.topAnchor="180.0" />
       <CheckBox fx:id="nom" layoutX="480.0" layoutY="211.0" mnemonicParsing="false" text="Nom A-Z" AnchorPane.leftAnchor="480.0" AnchorPane.topAnchor="210.0" />
       <CheckBox fx:id="cours" layoutX="490.0" layoutY="221.0" mnemonicParsing="false" text="Cours" AnchorPane.leftAnchor="480.0" AnchorPane.topAnchor="240.0" />
-      <Button fx:id="bnGenere" layoutX="480.0" layoutY="310.0" mnemonicParsing="false" onAction="#clicGenere" prefHeight="32.0" prefWidth="100.0" text="Générer mail" />
+      <Button fx:id="bnGenere" layoutX="480.0" layoutY="310.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="100.0" text="Générer mail" />
    </children>
 </AnchorPane>
