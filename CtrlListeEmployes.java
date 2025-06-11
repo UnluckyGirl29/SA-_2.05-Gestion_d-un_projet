@@ -69,10 +69,10 @@ public class CtrlListeEmployes {
 		colonne4.setCellValueFactory(new PropertyValueFactory<Membre, Integer>("inscription"));
 		tvListeEmployes.getColumns().set(3, colonne4);
 		TableColumn<Membre,Float> colonne5 = new TableColumn<Membre,Float>("Montant payé");
-		colonne5.setCellValueFactory(new PropertyValueFactory<Membre, Float>("paye"));
+		colonne5.setCellValueFactory(new PropertyValueFactory<Membre, Float>("montantPaye"));
 		tvListeEmployes.getColumns().set(4, colonne5);
 		TableColumn<Membre,Float> colonne6 = new TableColumn<Membre,Float>("Montant dû");
-		colonne6.setCellValueFactory(new PropertyValueFactory<Membre, Float>("impaye"));
+		colonne6.setCellValueFactory(new PropertyValueFactory<Membre, Float>("montantDu"));
 		tvListeEmployes.getColumns().set(5, colonne6);
 				
 		tvListeEmployes.setItems(Main.getLesEmployes());
