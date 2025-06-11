@@ -1,0 +1,15 @@
+- Modifier/Supprimer date paiement
+- Modifier/Supprimer montant payé
+- Modifier/Supprimer membre
+- Générer factures
+- Rappel paiement
+- Tri saison
+- Tri alphabétique
+- Tri cours
+- Filtre cours
+- Désinscription élève
+- Conservation info membre
+- Suppression info inscription
+- Double clic
+- Touche suppr
+- Fenêtre modifier : Aucuns caractères géré
