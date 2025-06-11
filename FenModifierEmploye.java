@@ -5,7 +5,6 @@ import java.io.File;
 import java.io.IOException;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import modele.Membre;
 import javafx.scene.layout.Pane;
 import javafx.fxml.FXMLLoader;
 
@@ -28,7 +27,8 @@ public class FenModifierEmploye extends Stage {
 		ctrl = loader.getController();
 		return racine;
 	}
-	
+
+}
 	public void afficherEmploye(Membre e) {
 		ctrl.afficherEmploye(e);
 	}
